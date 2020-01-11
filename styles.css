@@ -1,101 +1,128 @@
-
-/* Styling for 320px wide views. */
-@media (max-width: 320px) {
-
-    body {
-        margin: 0px;
-        padding: 0px;
-        text-align: center;
-        color: rgb(102, 102, 102);
-        font-family: 'Yantramanav', sans-serif;
-    }
-
-    .main-nav {
-        margin: auto;
-        margin-top: 15px;
-        background: white;
-        text-align: center;
-        font-weight: bold;
-    }
-
-    .main-nav h2 {
-        margin-top: 10px;
-    }
-
-    .nav,
-    .topic h3 {
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .nav li {
-        list-style: none;  
-        margin: 20px 0px 20px 0px;
-        font-size: 1rem;  
-    }
-
-    .profimg-container {
-        margin: auto;
-        margin-top: 40px;
-        margin-bottom: 30px;
-        width: 60%;
-        background-color: rgb(233, 235, 233);
-    }
-
-    .profile-img {
-        height: 100px;
-        width: 90px;
-        margin-top: 10px;
-        border-radius: 50%;
-        border: 2px solid rgb(228, 228, 226);
-    }
-
-    .portfolio {
-        width: 90%;
-        margin-top: 60px;
-    }
-
-    .intro p {
-        margin-bottom: 75px;
-    }
-
-    
-    p,
-    .footer-list {
-        width: 85%;
-        margin: auto;
-    }
-
-    .info {
-        margin-top: 100px;
-        margin-bottom: 50px;
-    }
-
-    .contact,
-    .info p:nth-child(2) {
-        margin-bottom: 30px;
-    }
-
-    .info p:nth-child(3) {
-        margin-bottom: 20px;
-    } 
-
-    .footer-list {
-        border: 1px solid rgb(235, 234, 234);
-        width: 85%;
-        padding: 0px;
-        font-size: 0.90rem;
-        font-weight: bold;
-        list-style: none;
-    }
-    
-    .footer-list li:nth-child(1) {
-        margin: 20px 0px 20px 0px;
-        float: left;
-    }
-
-    .footer-list li:nth-child(2) {
-        margin: 20px 0px 20px 0px;
-        float: right;
-    }
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: rgb(102, 102, 102);
+    font-family: 'Yantramanav', sans-serif;
 }
+
+/* Navigation Styles */
+
+.main-nav {
+    margin: auto;
+    margin-top: 15px;
+    background: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-nav h2 {
+    margin-top: 10px;
+}
+
+.nav,
+.topic h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav li {
+    list-style: none;  
+    margin: 20px 0px 20px 0px;
+    font-size: 1rem;  
+}
+
+/* Link styles */
+
+a:link {
+    text-decoration: none; 
+    color: rgb(102, 102, 102);
+}
+
+a:visited {
+    color: rgb(214, 9, 9);        
+}
+
+a:hover {
+    color: #33ff88;
+}
+
+a:active {
+    color: rgb(102, 102, 102);
+}
+
+/* Profile image styles */
+
+.profimg-container {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 60%;
+    background-color: rgb(233, 235, 233);
+}
+
+.profile-img {
+    height: 100px;
+    width: 90px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 2px solid rgb(228, 228, 226);
+}
+
+.portfolio {
+    width: 90%;
+    margin-top: 60px;
+}
+
+/* Header styles */
+
+.intro p {
+    margin-bottom: 75px;
+}
+
+/* aside styles */
+
+.info {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.contact,
+.info p:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+.info p:nth-child(3) {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+
+p,
+.footer-list {
+    width: 85%;
+    margin: auto;
+}
+
+.footer-list {
+    border: 1px solid rgb(235, 234, 234);
+    width: 85%;
+    padding: 0px;
+    font-size: 0.90rem;
+    font-weight: bold;
+    list-style: none;
+}
+
+.footer-list li:nth-child(1) {
+    margin: 20px 0px 20px 0px;
+    float: left;
+}
+
+.footer-list li:nth-child(2) {
+    margin: 20px 0px 20px 0px;
+    float: right;
+}
+
+/* STYLING FOR VIEWS OVER 320px AND LESS THAN 786px */
+
+/* STYLING FOR VIEWS OVER 1024px */
