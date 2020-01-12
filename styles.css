@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(250, 250, 250);
     text-align: center;
     color: rgb(102, 102, 102);
     font-family: 'Yantramanav', sans-serif;
@@ -39,6 +39,8 @@ body {
 a:link {
     text-decoration: none; 
     color: rgb(102, 102, 102);
+    font-size: 0.95rem;
+    font-weight: 900;
 }
 
 a:visited {
@@ -63,13 +65,14 @@ a:active {
     margin: auto;
     margin-top: 40px;
     margin-bottom: 30px;
+    height: 130px;
     width: 60%;
-    background-color: rgb(233, 235, 233);
+    background-color: rgb(236, 236, 236);
 }
 
 .profile-img {
-    height: 100px;
-    width: 90px;
+    height: 110px;
+    width: 110px;
     margin-top: 10px;
     border-radius: 50%;
     border: 2px solid rgb(228, 228, 226);
@@ -79,6 +82,14 @@ a:active {
 
 .intro {
     margin-bottom: 45px;
+    font-size: 1.2rem;
+    color: rgb(143, 142, 142);
+}
+
+.intro p {  
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Main styles */
@@ -88,9 +99,22 @@ a:active {
     padding-bottom: 50px;
 }
 
+.topic h3 {
+    font-size: 0.95rem;
+}
+
+.topic h2 {
+    font-size: 1.25rem;
+}
+
 .portfolio {
     width: 90%;
-    margin-top: 60px;
+    margin-top: 50px;
+}
+
+.topic p {
+    width: 75%;
+    margin: auto;
 }
 
 /* aside styles */
@@ -100,7 +124,7 @@ a:active {
     margin-bottom: 50px;
 }
 
-.contact,
+#contact,
 .info p:nth-child(2) {
     margin-bottom: 30px;
 }
@@ -109,39 +133,51 @@ a:active {
     margin-bottom: 20px;
 }
 
+.invite {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    color: rgb(143, 142, 142);
+}
+
 /* Footer styles */
 
-p,
 .footer-list {
-    width: 85%;
+    width: 90%;
     margin: auto;
 }
 
 .footer-list {
     list-style-type: none;
-    border: 1px solid rgb(235, 234, 234);
-    width: 85%;
+    border: 1.2px solid rgb(235, 234, 234);
+    width: 90%;
     padding: 0px;
     font-size: medium;
     font-weight: 900;
 }
 
-.footer-list li:nth-child(1) {
+#myname {
     margin: 20px 0px 20px 0px;
     float: left;
+    font-size: 1.1rem;
 }
 
-.footer-list li:nth-child(2) {
+#back-top {
     margin: 20px 0px 20px 0px;
     float: right;
 }
 
-/* STYLING FOR VIEWS OVER 320px AND LESS THAN 786px */
-@media (min-width: 321px) and (max-width: 876px) {
+.nav-large {
+    display: none;
+}
+
+/* STYLING FOR VIEWS ATLEAST 768px */
+@media (min-width: 768px) {
     /* Navigation styles */
     .nav li {
         display: inline;
-        background-color: rgb(247, 247, 247);
+        background-color: rgb(250, 250, 250);
     }
 
     /* Header styles */
@@ -154,7 +190,6 @@ p,
 
     .intro p {
         margin-top: 40px;
-        padding: 0px;
         width: 55%;
         float: left;
         text-align: left;
@@ -162,7 +197,13 @@ p,
 
     .profimg-container {
         float: right;
+        height: 150px;
         width: 40%;
+    }
+
+    .profile-img {
+        height:125px;
+        width: 125px;
     }
 
     .intro::after { 
@@ -187,6 +228,34 @@ p,
         content: "";
         display: block; 
         clear: both;
+    }
+
+    .portfolio {
+        width: 97%;
+    }
+
+    /* Aside styles */
+    .info {
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Footer styles */
+    #back-top {
+        display: none;
+    }
+    .nav-large {
+        display: inline;
+        float: right;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .nav-large a {
+        font-size: 0.9rem;
+    }
+
 }
 
-/* STYLING FOR VIEWS OVER 1024px */
+/* STYLING FOR VIEWS ATLEAST 1024px */
