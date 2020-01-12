@@ -1,3 +1,5 @@
+
+
 /* Mobile first styling. For 320px views */
 body {
     margin: 0px;
@@ -103,21 +105,25 @@ a:active {
 
 .topic h3 {
     font-size: 0.95rem;
+    margin-bottom: 50px;
 }
 
 .topic h2 {
     font-size: 1.25rem;
 }
 
+.topic section {
+    margin-top: 50px;
+}
+
 .portfolio {
     width: 90%;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .topic p {
     width: 75%;
-    margin: auto; 
-    
+    margin: auto;
 }
 
 /* aside styles */
@@ -153,7 +159,7 @@ a:active {
 
 .footer-list {
     list-style-type: none;
-    border: 1.2px solid rgb(235, 234, 234);
+    border-top: 1.2px solid rgb(235, 234, 234);
     width: 90%;
     padding: 0px;
     font-size: medium;
@@ -172,7 +178,7 @@ a:active {
 }
 
 .nav-large {
-    display: none;
+    visibility: hidden;
 }
 
 /* STYLING FOR VIEWS ATLEAST 768px */
@@ -220,13 +226,15 @@ a:active {
     .topic {
         padding-left: 20px;
         padding-right: 20px;
+        padding-bottom: 0px;
         background-color: white;
     }
 
     .topic section {
         width: 50%;
-        box-sizing: border-box;
         float: left;
+        min-height: 420px;
+        margin-top: 0px;
     }
     
     .topic::after { 
@@ -251,10 +259,10 @@ a:active {
         display: none;
     }
     .nav-large {
+        visibility: visible;
         float: right;
         margin-top: 20px;
         margin-left: 20px;
-        display: inline;
     }
 
     .nav-large a {
@@ -321,7 +329,6 @@ a:active {
         float: left;
         position: relative;
         left: 7px;
-        /* white-space: nowrap; */
     }
     
     .topic::after { 
