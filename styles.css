@@ -71,9 +71,9 @@ a {
 }
 
 .profile-img {
-    height: 110px;
-    width: 110px;
-    margin-top: 10px;
+    height: 105px;
+    width: 105px;
+    margin-top: 9px;
     border-radius: 50%;
     border: 3px solid rgb(109, 109, 109);
     transition: all .5s;
@@ -268,7 +268,7 @@ a {
     #back-top {
         display: none;
     }
-    
+
     .nav-large {
         visibility: visible;
         float: right;
@@ -324,7 +324,7 @@ a {
     .profile-img {
         height:150px;
         width: 150px;
-        margin-top: 13px;
+        margin-top: 11px;
     }
 
     /* Main styles */
