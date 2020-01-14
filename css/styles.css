@@ -22,6 +22,7 @@ body {
 #displayname {
     font-family: 'Galada', cursive;
     color: rgb(146, 63, 52);
+    font-size: 2rem;
 }
 
 .nav {
@@ -33,7 +34,7 @@ body {
     list-style: none;  
     margin: 5px 15px 5px 15px;
     padding: 10px 0px 10px 0px;
-    font-size: 1rem;
+    font-size: 1.25rem;
     background-color: whitesmoke;  
 }
 
@@ -42,7 +43,6 @@ body {
 a:link {
     text-decoration: none; 
     color: rgb(146, 63, 52);
-    font-size: 0.95rem;
     font-weight: 900;
 }
 
@@ -87,7 +87,7 @@ a {
 
 .intro {
     margin-bottom: 45px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .intro p {  
@@ -108,12 +108,12 @@ a {
     margin: 0px;
     padding: 0px;
     margin-bottom: 50px;
-    font-size: 0.95rem;
+    font-size: 1.25rem;
     color: rgb(146, 63, 52);
 }
 
 .topic h2 {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
 }
 
 .topic section {
@@ -128,6 +128,7 @@ a {
 .topic p {
     width: 75%;
     margin: auto;
+    font-size: 1.2rem;
 }
 
 /* aside styles */
@@ -155,7 +156,7 @@ a {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 /* Footer styles */
@@ -337,9 +338,11 @@ a {
 
     .topic section {
         width: 33%;
+        height: auto;
         float: left;
         position: relative;
-        left: 7px;
+        left: 5px;
+        min-height: 470px;
     }
     
     .topic::after { 
@@ -352,6 +355,7 @@ a {
         width: 95%;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 10px;
     }
 
     /* Aside styles */
